@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.titulo1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+font-family: sans-serif;
+
+}
+.flex-container1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:blueviolet; 
+    font-size: 25px;
+    text-align: justify;
+    border-radius: 5px;
+    justify-content: space-around;
+    height: 50px;
+  
+}
+.Fraseshome{
+    text-align: center;
+    color: gainsboro;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.titulocolor{
+    color: blueviolet
+}
+
+    
+
+.logo{
+    height: auto;
+    width: auto;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+body{
+    background-color:cornflowerblue}
+
+.titulos{
+    color: cadetblue;
+}
+.titulo{
+    color: black;
+}
+.portfolio{
+    background-color: blue;
+    margin-left: 50px ;
+    margin-right: 50px;
+}
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.fototexto{
+    width: 31%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+.fototexto > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.leyenda{
+    position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+/*transform: scale(0);*/
+background-color: rgb(158, 4, 4) (273,91%,27%,0.7);
+transition: transform .5s;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+
+}
+.leyenda p{
+    color: rgb(165, 0, 0);
+}
+.fototexto:hover .leyenda{
+    transform: scale(1)
+}
